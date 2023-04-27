@@ -24,6 +24,15 @@
           email,
           phonenumber,
         };
+
+        // axios.post("https://crudcrud.com/api/4b0c14f575134e7b9ee4d800a62519e5".obj)
+        // .then((respone) => {
+        //   console.log(respone)
+            
+        //   .catch((err) => {
+        //     console.log(err)
+        //   })
+        
         localStorage.setItem(obj.email, JSON.stringify(obj));
         showUserOnScreen(obj);
       }
