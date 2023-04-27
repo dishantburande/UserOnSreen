@@ -33,8 +33,8 @@
             console.log(err)
           })
         
-        localStorage.setItem(obj.email, JSON.stringify(obj));
-        showUserOnScreen(obj);
+          localStorage.setItem(obj.email, JSON.stringify(obj));
+          showUserOnScreen(obj);
       }
       function showUserOnScreen(obj) {
         const parentElem = document.getElementById("listOfitems")
